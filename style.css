@@ -1,52 +1,104 @@
+/* 全站背景色 */
 body {
-  margin: 0;
-  font-family: Arial;
-  background-color: #f7f7f7;
+    background-color: #e8f1fb;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
+/* 主容器 */
+.container {
+    width: 100%;
+}
+
+/* Header */
 .container header {
-  background-color: #ffb38a; 
-  padding: 20px;
+    background-color: #1c4e80;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
+/* 導覽列 */
 .container header nav {
-  display: flex;
-  gap: 20px;
+    background-color: #163d66;
+    padding: 10px;
 }
 
-#hero {
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  padding: 50px 10px;
+.container header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Hero 區塊（背景圖片） */
+.container #hero {
+    height: 300px;
+    background-image: url("images/IMG_0413.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+/* About 區塊（漸層背景） */
+.container #about {
+    background: linear-gradient(white, #b9d7f2);
+    padding: 40px;
+    text-align: center;
+}
+
+/* Products 區塊 */
+#products {
+    padding: 40px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.product-item {
+    margin-bottom: 30px;
+}
+
+.product-item img {
+    width: 70%;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #999;
+}
+
+/* Banner 區塊 */
+.container .banner {
+    height: 200px;
+    background-image: url("images/IMG_0413.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    text-shadow: 1px 1px 4px black;
+}
+
+/* Contact 區塊 */
+.container #contact {
+    background-image: url("images/IMG_0413.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+/* 顏色細部控制 */
+#hero h1 {
+  color: yellow;
+}
+
+.products p {
+  color: #333;
+}
+
+#contact h2 {
   color: white;
-}
-
-#about {
-  padding: 40px 20px;
-  background-color: #fff;
-}
-
-.products {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  gap: 20px;
-}
-
-.products img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.banner {
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-}
-
-#contact {
-  padding: 40px 20px;
-  background-color: #eee;
 }
