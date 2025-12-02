@@ -33,7 +33,7 @@ body {
 /* Hero 區塊（背景圖片） */
 .container #hero {
     height: 300px;
-    background-image: url("images/IMG_0413.jpg");
+    background-image: url("images/IMG_0413.jpeg");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -70,7 +70,7 @@ body {
 /* Banner 區塊 */
 .container .banner {
     height: 200px;
-    background-image: url("images/IMG_0413.jpg");
+    background-image: url("images/IMG_0413.jpeg");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -81,7 +81,7 @@ body {
 
 /* Contact 區塊 */
 .container #contact {
-    background-image: url("images/IMG_0413.jpg");
+    background-image: url("images/IMG_0413.jpeg");
     background-size: cover;
     background-position: center;
     padding: 40px;
