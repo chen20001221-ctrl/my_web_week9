@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #f7f7f7;
+}
+
+.container header {
+  background-color: #ffb38a; 
+  padding: 20px;
+}
+
+.container header nav {
+  display: flex;
+  gap: 20px;
+}
+
+#hero {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px 10px;
+  color: white;
+}
+
+#about {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+.products img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.banner {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+#contact {
+  padding: 40px 20px;
+  background-color: #eee;
+}
